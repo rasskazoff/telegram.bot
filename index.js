@@ -1,4 +1,7 @@
 process.env.NTBA_FIX_319 = 1;
+require('https').createServer().listen(process.env.PORT || 8080).on('request', function(req, res){
+  res.end('')
+});
 
 const TelegramBot = require('node-telegram-bot-api');
 const token = '5199433195:AAFRqWtlsdoRN9u24Oze5g8kK3jtHb9EgM0';
