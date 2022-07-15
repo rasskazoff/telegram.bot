@@ -8,7 +8,7 @@ const keyboard = [
     [
       {
         text: 'Колесо фортуны',
-        web_app: {url: 'https://argoo.ru/test/'},        
+        web_app: {url: 'https://rasskazoff.github.io/fortuneWheel.tg-app/dist/'},        
       }
     ]
   ];
